@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+     background-color: rgb(101, 180, 139);
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+     }
+    h1 {
+     color: #fff;
+     background-color: black;
+     text-align: center;
+     }
+     h2 {
+    color: black;
+    text-decoration: underline;
+    }
+    p {
+    text-align: justify;
+    }

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    background-image: linear-gradient(to top,#15482c,#32b66b,#3edb82 );
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-right: px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: initial;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+main {
+    background-color: #fff;
+    width: 900px;
+    border: 20px;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+main h2{
+    font-family: idroid, Verdana, Tahoma, sans-serif;
+    color:#15482c;
+}
+
+main h3 {
+    font-family: idroid, Verdana, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, #239a4d,  #8cd7ac, white );
+}
+
+main p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+main img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main #video {
+    background-color: #15482c;
+   max-width: 100%;
+   box-sizing: border-box;
+   outline: 20px solid #15482c;
+}
+
+iframe {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    color: #15482c;
+}
+
+
+main ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside;
+}
+
+main #extra {
+    background-color: #d6f5df;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+#extra h4{
+    background-color: #1b6535d4;
+    color: white;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 6px 6px 0 0;
+    font-size: 18px;
+}
+
+footer {
+    background-color:#116736 ;
+    padding-bottom: 3px;
+    color: white;
+    text-align: center;
+}
