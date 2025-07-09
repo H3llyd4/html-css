@@ -13,6 +13,12 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
         }
 
         caption{
@@ -21,16 +27,22 @@
             padding: 10px;
             background-color: lightgray;
         }
-        td, th {
-            border: 1px solid black;
-            padding: 10px;
-        }
 
         thead, tfoot {
-            background-color: rgba(0, 0, 0, 0.782);
+            background-color: #383838;
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* (2n-1 : impar) (2n: par) (odd: impar) (even: par)*/
+            background-color: lightgray;
+
+        }
         td.num {
             text-align: right;
         }
@@ -209,5 +221,19 @@
         </tfoot>
     </table>
 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam cum perspiciatis nam ex, praesentium nobis, hic adipisci aut mollitia magni cupiditate. Debitis accusantium tempore rem expedita sed, voluptatibus quidem recusandae?
+    Aliquid nam quaerat corporis libero odit veniam porro saepe eligendi cupiditate possimus optio nesciunt doloribus sapiente nulla, id corrupti pariatur laudantium. In porro numquam accusantium ex temporibus suscipit! Atque, accusamus.
+    Adipisci impedit sunt ea, exercitationem facere eum veniam. Eligendi asperiores deleniti quis. Saepe id eveniet porro recusandae. Quam praesentium eveniet iusto commodi consectetur molestias voluptas beatae, odit quidem fuga asperiores?
+    Maiores facilis nihil delectus ducimus impedit, adipisci laudantium sequi voluptas accusamus repellat beatae aspernatur? Aliquid assumenda voluptatibus quibusdam corrupti molestiae consequatur quae? Doloremque labore et, reprehenderit facere hic molestiae accusantium!
+    Maiores cumque debitis soluta odit animi molestias ipsum dolores perspiciatis. Quod quasi quam quae quo veritatis dolor voluptatibus non natus blanditiis. Aliquid, consequatur voluptate. Beatae earum enim soluta minima temporibus.</p>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam cum perspiciatis nam ex, praesentium nobis, hic adipisci aut mollitia magni cupiditate. Debitis accusantium tempore rem expedita sed, voluptatibus quidem recusandae?
+    Aliquid nam quaerat corporis libero odit veniam porro saepe eligendi cupiditate possimus optio nesciunt doloribus sapiente nulla, id corrupti pariatur laudantium. In porro numquam accusantium ex temporibus suscipit! Atque, accusamus.
+    Adipisci impedit sunt ea, exercitationem facere eum veniam. Eligendi asperiores deleniti quis. Saepe id eveniet porro recusandae. Quam praesentium eveniet iusto commodi consectetur molestias voluptas beatae, odit quidem fuga asperiores?
+    Maiores facilis nihil delectus ducimus impedit, adipisci laudantium sequi voluptas accusamus repellat beatae aspernatur? Aliquid assumenda voluptatibus quibusdam corrupti molestiae consequatur quae? Doloremque labore et, reprehenderit facere hic molestiae accusantium!
+    Maiores cumque debitis soluta odit animi molestias ipsum dolores perspiciatis. Quod quasi quam quae quo veritatis dolor voluptatibus non natus blanditiis. Aliquid, consequatur voluptate. Beatae earum enim soluta minima temporibus.</p> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam cum perspiciatis nam ex, praesentium nobis, hic adipisci aut mollitia magni cupiditate. Debitis accusantium tempore rem expedita sed, voluptatibus quidem recusandae?
+    Aliquid nam quaerat corporis libero odit veniam porro saepe eligendi cupiditate possimus optio nesciunt doloribus sapiente nulla, id corrupti pariatur laudantium. In porro numquam accusantium ex temporibus suscipit! Atque, accusamus.
+    Adipisci impedit sunt ea, exercitationem facere eum veniam. Eligendi asperiores deleniti quis. Saepe id eveniet porro recusandae. Quam praesentium eveniet iusto commodi consectetur molestias voluptas beatae, odit quidem fuga asperiores?
+    Maiores facilis nihil delectus ducimus impedit, adipisci laudantium sequi voluptas accusamus repellat beatae aspernatur? Aliquid assumenda voluptatibus quibusdam corrupti molestiae consequatur quae? Doloremque labore et, reprehenderit facere hic molestiae accusantium!
+    Maiores cumque debitis soluta odit animi molestias ipsum dolores perspiciatis. Quod quasi quam quae quo veritatis dolor voluptatibus non natus blanditiis. Aliquid, consequatur voluptate. Beatae earum enim soluta minima temporibus.</p> 
 </body>
 </html>
