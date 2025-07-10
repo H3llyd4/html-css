@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome, .cidade{
+            background-color: lightcyan;
+        }
+        
+        col.csexo, .cprof{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Lara Héllyda</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Thalyta Cristiny</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Alynne Gregório</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Pesquisadora</td>
+        </tr>
+        <tr>
+            <td>Marcos Ibiapino</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Professore</td>
+        </tr>
+    </table>
+</body>
+</html>
