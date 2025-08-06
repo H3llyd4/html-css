@@ -1,2 +1,50 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+header, section.normal {
+    padding: 20px;
+}
+
+section.flex-content {
+    padding: 20px;
+    background-color: #934200de;
+}
+
+footer {
+    background-color: black;
+    color: #934200de;
+    font-size: 0.8em;
+  
+    
+}
+
+footer > p {
+    padding: 10px;
+    text-align: center;
+}
+
+footer > p > a {
+    color: #934200de;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: #fff;
+}
